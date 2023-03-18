@@ -205,7 +205,12 @@ namespace FaceDetect
             if (listBox1.SelectedIndex > -1)
             {
                 keyName = listBox1.SelectedItem.ToString();
-                MessageBox.Show("item =" + listBox1.SelectedItem + "\nkeyname: " + keyName + "\nindex:" + listBox1.SelectedIndex);
+                //MessageBox.Show("item =" + listBox1.SelectedItem + "\nkeyname: " + keyName + "\nindex:" + listBox1.SelectedIndex);
+                show_imgae();
+            }
+            else
+            {
+                MessageBox.Show("Выберите какою-то картинку!");
                 show_imgae();
             }
 
